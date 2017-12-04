@@ -22,3 +22,6 @@
 
 # Idea project
 /.idea
+
+# Visual Studio
+/.vscode

@@ -1,18 +1,1 @@
-<h1>Welcome#index</h1>
-<p>Welcome to Almost Sasuke</p>
-
-<table>
-	<% @names_arr.each do |name| %>
-	<tr>
-  	<td>
-	  <strong>Family:</strong>
-	  <%= name['family'] %>
-	</td>
-	 
-	<td>
-	  <strong>Text:</strong>
-	  <%= name['name'] %>
-	</td>
-	</tr>
-	<% end %>
-</table>
+<%= react_component 'Welcome' %>
